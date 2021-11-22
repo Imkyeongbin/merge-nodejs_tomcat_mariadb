@@ -1,0 +1,32 @@
+.DS_Store
+node_modules
+nodeApp_front/node_modules
+nodeApp/node_modules
+nodeApp/.nuxt
+/dist
+/_reference/.
+
+#기업은행 테스트용 페이지
+nodeApp/server/views/html/NCLoginTestEnc.html
+
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+.gitignore
