@@ -19,6 +19,7 @@ module.exports = {
         HOST: '0.0.0.0',
   
       },
+      cwd: '/nodeApp',
   
    },{
   
@@ -39,7 +40,7 @@ module.exports = {
       HOST: '0.0.0.0',
   
     },
-  
+    cwd: '/nodeApp',
   }],
   
 };

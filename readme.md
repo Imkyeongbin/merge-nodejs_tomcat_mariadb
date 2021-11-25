@@ -20,7 +20,7 @@ sh 1_build.sh
 ##### Run단계에서 이미지 뒤에 붙을 수 있는 옵션이 있습니다. --pa, --pd는 각각 톰캣, DB의 포트이며, -t는 db와 톰캣 구동 사이에 최대 대기할 초입니다. -t옵션은 간혹 마리아db 세팅도중에 노드가 실행되어 마리아db없이 작동하다 에러가 뜨는 것을 방지하기 위해 만들어진 딜레이 컨트롤 옵션이고 기본값은 120(초)입니다.
 
   ```
-  docker run --name user_content_full -p 13333:13333 user_content_full:20211117 --pa 13333 --pd 33333 -t 120 --aaocr http://user_content_full:13333/ocr --adocr http://user_contentocr:12345 --allcore 0 --baseurl http://yourBase.com:18080
+  docker run --name user_content_full -p 13333:13333 user_content_full:20211125 --pa 13333 --pd 33333 -t 120 --aaocr http://user_content_full:13333/ocr --adocr http://user_contentocr:12345 --allcore 0 --baseurl http://yourBase.com:18080
   ```
 
 
@@ -31,11 +31,11 @@ sh 1_build.sh
   옵션을 줘서 변경하면 됩니다. 예를 들면,
   
   ```
-  docker run --name user_content_full -p 12345:12345 user_content_full:20211117 --pa 12345
+  docker run --name user_content_full -p 12345:12345 user_content_full:20211125 --pa 12345
   ```
 
 
-- ver. 20211117 : 현행 도커파일은 Dockerfile_UJNTMAg와 동일합니다.
+- ver. 20211125 : 현행 도커파일은 Dockerfile_UJNTMAg와 동일합니다.
 
 - arg.sh의 마지막 단계에서 OCR_ADDRESS_DIRECT_CHANGED를 보여주던 것을 OCR_ADDRESS_DIRECT를 보여주게 변경
 

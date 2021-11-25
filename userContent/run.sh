@@ -2,7 +2,7 @@
 
 # shellcheck disable=SC1091
 
-echo "merge-tomcat&node&mariaDB ver 20211117"
+echo "merge-tomcat&node&mariaDB ver 20211125"
 
 . /userContent/arg.sh
 
