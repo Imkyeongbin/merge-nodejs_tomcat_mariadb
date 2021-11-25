@@ -105,7 +105,6 @@ EXPOSE 18019
 
 
 COPY userContent /userContent
-RUN cp userContent/cpROOT.sh / && chmod g+rwX /userContent
 
 
 ## nodeApp_Front
