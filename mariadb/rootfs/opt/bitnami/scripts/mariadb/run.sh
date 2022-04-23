@@ -31,7 +31,7 @@ flags+=("$@")
 LD_PRELOAD="$(find_jemalloc_lib)${LD_PRELOAD:+ "$LD_PRELOAD"}"
 export LD_PRELOAD
 
-touch /userContent/mariadb_setting_done
+touch /userContents/mariadb_setting_done
 
 info "** Starting MariaDB **"
 if am_i_root; then

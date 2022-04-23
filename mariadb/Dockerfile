@@ -20,8 +20,8 @@ RUN /opt/bitnami/scripts/mariadb/postunpack.sh
 ENV BITNAMI_APP_NAME="mariadb" \
     BITNAMI_IMAGE_VERSION="10.5.9-debian-10-r58" \
     PATH="/opt/bitnami/common/bin:/opt/bitnami/mariadb/bin:/opt/bitnami/mariadb/sbin:$PATH" \
-    MARIADB_ROOT_USER=userContentsoft \
-    MARIADB_ROOT_PASSWORD=!userContent! \
+    MARIADB_ROOT_USER=userContentssoft \
+    MARIADB_ROOT_PASSWORD=!userContents! \
     TZ=Asia/Seoul
 EXPOSE 3306
 

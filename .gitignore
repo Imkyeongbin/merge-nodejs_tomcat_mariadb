@@ -5,7 +5,6 @@ nodeApp/node_modules
 nodeApp/.nuxt
 /dist
 
-
 # local env files
 .env.local
 # .env.*.local

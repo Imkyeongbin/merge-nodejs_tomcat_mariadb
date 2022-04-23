@@ -2,7 +2,7 @@
 
 # shellcheck disable=SC1091
 
-echo "merge-tomcat&node&mariaDB&nodeApp ver 20211125"
+echo "merge-tomcat&node&mariaDB&nodeApp ver 20220419"
 
 TEST=1000
 TEST2=$( stat -c '%u' server3 )
